@@ -17,4 +17,18 @@
         </plugins>
     </build>
 
+    <distributionManagement>
+      
+       <repository>
+           <id>nexus</id>
+           <name>Facebook nexus releases repository</name>
+           <url>http://13.60.245.96:8081/repository/facebook-release/</url>
+         </repository>
+         
+         <snapshotRepository>
+           <id>nexus</id>
+           <name>Facebook nexus Snapshot repository</name>
+           <url>http://13.60.245.96:8081/repository/facebook-snapshot/</url>
+         </snapshotRepository>      
+    </distributionManagement>         
 </project>
